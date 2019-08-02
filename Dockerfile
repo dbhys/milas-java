@@ -1,4 +1,4 @@
-FROM repos.it.taikang.com:8080/library/openjdk:8-jdk-alpine
+FROM openjdk:8-jdk-alpine
 
 LABEL language="java" jdk-version=8 contains="bash, vim, unzip, curl, telnet"
 MAINTAINER Milas
