@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine
+FROM repos.it.taikang.com:8080/library/openjdk:8-jdk-alpine
 
 LABEL language="java" jdk-version=8 contains="bash, vim, unzip, curl, telnet"
 MAINTAINER Milas
@@ -6,5 +6,5 @@ MAINTAINER Milas
 ENV TZ="Asia/Shanghai"
 
 RUN apk update upgrade \
-&& apk add --no-cache bash vim procps unzip curl perl-net-telnet
+&& apk add --no-cache bash vim procps unzip curl busybox-extras
 RUN mkdir -p /deployments
