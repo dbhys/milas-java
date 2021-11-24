@@ -1,7 +1,7 @@
 # milas-java
 Used to build java docker image
 
-Java version:8
+Java version: 17
 
 Add bash, vim, unzip, curl, in order to do some operation easily in container.
 
