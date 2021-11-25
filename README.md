@@ -7,6 +7,8 @@ Add bash, vim, unzip, curl, in order to do some operation easily in container.
 
 Suggest you deploy your code in "/deployments" dir.
 
+This tag is built to solve the problem of relying on C libraries or native calls, such as use .so files in jar packages.
+
 ## How to use it
 ##### 1. Write your Dockerfile like this:
 
