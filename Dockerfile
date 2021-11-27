@@ -1,6 +1,6 @@
-FROM openjdk:17-jdk-alpine
+FROM openjdk:15-jdk-alpine
 
-LABEL language="java" jdk-version="17" contains="bash, vim, unzip, curl, telnet"
+LABEL language="java" jdk-version="15" contains="bash, vim, unzip, curl, telnet"
 MAINTAINER Milas
 
 ENV TZ="Asia/Shanghai"

@@ -1,8 +1,6 @@
 # milas-java
 Used to build java docker image
 
-Java version: 17
-
 Add bash, vim, unzip, curl, in order to do some operation easily in container.
 
 Suggest you deploy your code in "/deployments" dir.
